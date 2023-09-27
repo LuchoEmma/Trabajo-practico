@@ -1,97 +1,101 @@
 # Trabajo-practico
 <!DOCTYPE html>
 <html lang="es">
-<!-- Header -->
-<header class="banner">
-    <div class="container_16">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Curiculum Vitae</title>
+      <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cv {
+            font-size: 18px;
+            color: #777;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="container">
+      <center>
       <figure>
         <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Judd Gordon.">
       </figure>
       <hgroup>
-        <h1 class="fadeInDown">Judd Gordon</h1>
-        <h2 class="fadeInUp">Curriculum vitae</h2>
+         <h1>Judd Gordon</h1>
+         <h2 class="cv">Curriculum vitae</h2>
+        </center>
       </hgroup>
-    </div>
-  </header>
-  <section role="main" class="container_16">
-    <div class="grid_16">
-      <div class="grid_8 fadeInLeft">
+          
+    <!--Sobre Mi-->
         <h3>Sobre mí</h3>
-        <p>Mi nombre es Judd Gordon y soy programador web.</p>
-        <p>Actualmente soy desarrollador web freelance.</p>
-        <p>¡Un saludo!</p>
-      </div>
-          <!-- Contacto-->
-    <div class="grid_8 information fadeInUp">
-        <h3>Otros datos</h3>
-        <ul class="information">
-          <li>My address is 8447 Ash Dr</li>
-          <li>My email address is judd.gordon@example.com</li>
-          <li class="">My phone number is (341) 332-0180</li>
+        <ul>
+          <p>Mi nombre es Judd Gordon y soy programador web.</p>
+          <p>Actualmente soy desarrollador web freelance.</p>
         </ul>
-      </div>
-      <!-- Conocimientos-->
-      <div class="grid_8 knowledge fadeInRight">
+          
+    <!-- Contacto-->
+        <h3>Contacto</h3>
+        <ul>
+          <p>Mi dirección es 8447 Ash Dr</p>
+          <p>Mi dirección de correo es judd.gordon@example.com</p>
+          <p>Mi número de teléfono es (341) 332-0180</p>
+        </ul>
+
+    <!-- Conocimientos-->
         <h3>Conocimientos</h3>
-        <ul class="values">
-          <li>HTML5<span style="width: 90%;"></span></li>
-          <li>CSS3<span style="width: 85%;"></span></li>
-          <li>Javascript<span style="width: 80%;"></span></li>
+        <ul>
+          <p>HTML5<span style="width: 90%;"></span></p>
+          <p>CSS3<span style="width: 85%;"></span></p>
+          <p>Javascript<span style="width: 80%;"></span></p>
         </ul>
-      </div>
-    </div>
   
     <!-- Experiencia -->
-    <div class="grid_16 experiences appear">
+
       <h3>Experiencias</h3>
       <ul>
-        <li>
           <h4><strong>Programador web</strong></h4>
-          <span class="site">Freelance</span>
-          <span class="date">2020 - Actualmente</span>
-          <p>Desarrollo de aplicaciones/páginas web y dispositivos móviles.</p>
-        </li>
-        <li>
+          <p>Freelance 2020 - Actualmente</p>
+          <p>Desarrollo de aplicaciones/páginas web </p>
+
           <h4><strong>Analista/programador</strong></h4>
-          <span class="site">Open Canarias S.L.</span>
-          <span class="date">2021 - 2023</span>
-          <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
-        </li>
-        <li>
+          <p>Open Córdoba S.R.L. 2021 - 2023</p>
+          <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Córdoba realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
+
           <h4><strong>Analista/programador</strong></h4>
-          <span class="site">Personal Software System S.L.</span>
-          <span class="date">2020 - 2021</span>
-          <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Canarias realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
-        </li>
+          <p>Personal Software System S.R.L. 2020 - 2021</p>
+          <p>Analista/Programador en varios proyectos .Net para varias administraciones del Gobierno de Córdoba realizando labores de desarrollo y mantenimiento de aplicaciones.</p>
       </ul>
-    </div>
-  <!-- Formacion-->
-    <div class="grid_16 training appear">
+  
+    <!-- Formacion-->
       <h3>Formación</h3>
-      <div class="formation1">
         <ul>
-          <li>
             <h4><strong>Curso de Diseño Web con JS</strong></h4>
-            <span class="site">Fundación General de la Universidad de La Laguna.</span>
-            <span class="date">2021</span>
-          </li>
-          <li>
+            <p>Fundación General de la Universidad de Córdoba. 2021</p>
+
             <h4><strong>Curso de Programación HTML</strong></h4>
-            <span class="site">Universidad Complutense de Madrid - Google.</span>
-            <span class="date">2020</span>
-          </li>
+            <p>Universidad De Córdoba- Google. 2020</p>
         </ul>
-      </div>
-    </div>
+
     <!-- Informacion -->
-    <div class="grid_8 information fadeInUp">
       <h3>Otros datos</h3>
-      <ul class="information">
-        <li>Inglés nivel medio</li>
-        <li>Facilidad para trabajar en equipo</li>
-        <li class="">Aprendizaje rápido</li>
-        <li class="">carnet B1, coche propio</li>
+      <ul>
+        <p>Inglés nivel medio</p>
+        <p>Facilidad para trabajar en equipo</p>
+        <p>Aprendizaje rápido</p>
+        <p>carnet B1, coche propio</p>
       </ul>
     </div>
-    </html>
-Cv Ejemplo de TP
+  </body>
+</html>
